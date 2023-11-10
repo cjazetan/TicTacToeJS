@@ -1,0 +1,96 @@
+/* MOBILE FIRST */
+@font-face {
+    font-family: KidsRockDemo;
+    src: url(/fonts/kids-rock-demo.regular.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.background{
+    background-color: #001635;
+    margin: 0;
+    height: 100vh; 
+    width: 100%;
+    overflow: hidden
+}
+
+.tictitle{
+    color: white;
+    text-align: center;
+    margin: 8rem 0 5rem;
+    font-size: 2.5rem;
+    font-family: KidsRockDemo;
+    
+}
+
+
+
+.ticgrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 0.3rem;
+    background-color: #0098fa;
+    height: 20rem;
+    width: 20rem;
+    margin: 0 auto;
+}
+
+.block {
+    height: 7rem;
+    width: 100%;
+    background-color: #001635;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+.block:hover {
+    background-color: #01204b;
+}
+
+.block img{
+    display: block;
+    width: 6rem;
+}
+
+
+.placeholders img{
+    width: 5rem;
+    margin: 5rem auto;
+
+}
+
+.button{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#message{
+
+    margin-top: 6rem;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    border: none;
+    font-family: KidsRockDemo;
+
+}
+
+#restart{
+    width: 20rem;
+    background: none;
+    font-size: 32px;
+    color: white;
+    border: none;
+    font-family: KidsRockDemo;
+    cursor: pointer;
+    display: none;
+}
+
+#restart:hover{
+    color: gray;
+}
